@@ -108,7 +108,7 @@
             <list>
                 <value>classpath:geostore.properties</value>
                 <value>classpath*:geostore.properties</value>
-                <value>${georchestra-config}</value>
+                <value>file:${georchestra-config}</value>
             </list>
         </property>
         <property name="ignoreResourceNotFound" value="false"/>
