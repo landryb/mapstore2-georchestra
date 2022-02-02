@@ -94,6 +94,13 @@
         <artifactId>apache-log4j-extras</artifactId>
         <version>1.2.17</version> <!-- should we use norce version here, even if it is a different artifact id? https://github.com/geosolutions-it/MapStore2/blob/2022.01.xx/java/services/pom.xml#L48 -->
     </dependency>
+    <!-- logging extras, see https://github.com/georchestra/georchestra/issues/1890 -->
+    <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>apache-log4j-extras</artifactId>
+        <version>1.2.17</version>
+        <scope>runtime</scope>
+    </dependency>
   </dependencies>
 
   <build>
