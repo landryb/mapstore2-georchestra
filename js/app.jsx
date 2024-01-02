@@ -22,7 +22,7 @@ import GeoStory from "@mapstore/product/pages/GeoStory";
 import Permalink from "@mapstore/product/pages/Permalink";
 import ContextCreator from "@mapstore/product/pages/ContextCreator";
 import Context from "@mapstore/product/pages/Context";
-import { setRegGeoserverRule } from '@mapstore/framework/utils/LayersUtils';
+import { setRegGeoserverRule } from '@mapstore/utils/LayersUtils';
 import Admin from "./pages/Admin";
 
 /**
